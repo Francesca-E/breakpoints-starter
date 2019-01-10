@@ -1,0 +1,17 @@
+
+body {
+	background: red;
+}
+
+/* ----------- Tablets larger than 768px wide ----------- */
+@media (min-width:767px) {
+	body {
+    background: green;
+  }
+}
+
+/* ----------- Monitors larger than 1200px wide ----------- */
+@media (min-width:1201px) {
+		body {background: pink;
+		}
+}
